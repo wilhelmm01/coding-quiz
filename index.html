@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/style.css"> 
+</head>
+<body>
+
+    <header>
+        <p id="score">Total Score: 0</p>
+        <p>Time Left:</p>
+    </header>
+    <section class="intro" id="intro">
+        <h3>Coding Quiz</h3>
+    
+        
+        <p>Welcome to Matt's coding Quiz. The rules of the game include:
+            <ul>
+                <li>Time allowed to complete is 1 minute</li>
+                <li>You can only select one answer and wil be directed to next question </li>
+                <li>Score tally will appear at top of page</li>
+            </ul>
+
+        </p>
+        
+        
+        
+        <div>
+        <button id="start-btn" class="btn-start">Start</button>
+        </div>
+        
+    </section>
+
+    <section id="quiz" class="quiz">
+        <div class="hide" id="q1">
+            <h4 id="question-num">Question #1</h4>
+            <p id="topic">This is the Question?</p>
+                <div id="btn">
+                    <button class="btn" id="correct-1" >Answer 1</button>
+                    <button class="btn" >Answer 2</button>
+                    <button class="btn" >Answer 3</button>
+                    <button class="btn" >Answer 4</button>
+                </div>
+        </div>
+        <div class="hide" id="q2">
+            <h4>Yes! Question #2</h4>
+            <p>This is the Question?</p> 
+                <div id="btn-2">
+                     <button class="btn" >Answer 1</button>
+                     <button class="btn" >Answer 2</button>
+                     <button class="btn" id="correct-2" >Answer 3</button>
+                     <button class="btn" >Answer 4</button>
+                </div>
+        </div>
+        <div class="hide" id="q3">
+            <h4>Oh Yeah Question #3</h4>
+            <p>This is the Question?</p> 
+                <div id="btn-3">
+                     <button class="btn" >Answer 1</button>
+                     <button class="btn" >Answer 2</button>
+                     <button class="btn" id="correct-3" >Answer 3</button>
+                     <button class="btn" >Answer 4</button>
+                </div>
+               
+        </div> 
+        <div class="hide" id="q4">
+            <h4>OMG Question #4</h4>
+            <p>This is the Question?</p> 
+                <div id="btn-4">
+                     <button class="btn" >Answer 1</button>
+                     <button class="btn" id="correct-4" >Answer 2</button>
+                     <button class="btn" >Answer 3</button>
+                     <button class="btn" >Answer 4</button>
+                </div>
+        </div> 
+        <div class="hide" id="q5">
+            <h4>I can's believe it's #5</h4>
+            <p>This is the Question?</p> 
+                <div id="btn-5">
+                     <button class="btn" >Answer 1</button>
+                     <button class="btn" >Answer 2</button>
+                     <button class="btn" >Answer 3</button>
+                     <button class="btn" id="correct-5" >Answer 4</button>
+                </div>
+        </div>         
+    </section>
+
+    
+        <div class="hide" id="end" >
+            <h4> Your Results</h4>
+            <input type="text" placeholder="Your Initials" name="name" id="name">
+            <button id="restart-btn" class="eg-btn">Play Again</button>
+            <button id="end-btn" class="eg-btn">End Game</button>
+        </div>
+
+        <footer class="answer">
+            <div id="hide">
+                <h4 id="right" class="right"></h4>
+            </div>
+        </footer>
+
+
+  <script src="assets/script.js"></script> 
+</body>
+
+
+
+
+</html>

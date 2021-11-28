@@ -1,0 +1,94 @@
+:root {
+  background-color: rgb(235, 227, 227)
+}
+
+
+.hide {
+  display: none  
+}
+
+.intro {
+ justify-content: center;
+  margin-left: 30%;
+  padding: 5%;
+
+
+}
+
+.intro h3 {
+  font-size: 35px;
+  margin-left: 10%;
+  
+}
+
+.intro button {
+
+  background-color: orange;
+  font: white;
+  color: black;
+  font-size: 25px;
+  border-color: black;
+  box-shadow: black;
+  margin-top: 5%;
+padding-left: 10px;
+margin-left: 150px;
+padding-right: 10px
+;
+  
+}
+
+.btn-start:hover {
+  background-color: black;
+  color: white;
+}
+
+.quiz h4 {
+  justify-content: center;
+  margin-left: 33%;
+  padding: 5%;
+  font-size: 35px;
+
+}
+
+.quiz p {
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+}
+
+.quiz button {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 13%;
+  margin-top: 5%;
+
+  
+}
+
+.btn:hover {
+  background-color: black
+}
+
+.eg-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.right {
+
+  font-size: 25px;
+
+}
+
+footer {
+
+  border-top: orange;
+  font-size: 25px;
+  margin-left: 45%;
+  border-width: 10px;
+  color: black;
+}

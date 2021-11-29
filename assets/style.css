@@ -44,7 +44,7 @@ padding-right: 10px
 
 .quiz h4 {
   justify-content: center;
-  margin-left: 33%;
+  
   padding: 5%;
   font-size: 35px;
 
@@ -54,7 +54,9 @@ padding-right: 10px
   font-size: 20px;
   align-items: center;
   justify-content: center;
-  margin-left: 40%;
+  margin-left: 5%;
+  
+  font-size: 20px;
 }
 
 .quiz button {
@@ -62,8 +64,10 @@ padding-right: 10px
   color: white;
   font-size: 20px;
   font-weight: bold;
-  margin-left: 13%;
+  margin: 2%;
+  
   margin-top: 5%;
+  padding: 0px 10px 0px 10px;
 
   
 }
